@@ -54,7 +54,7 @@ export default function AllHoldings() {
   if (error) return <p>Error loading holdings data</p>;
   if (isLoading || !holdings)
     return (
-      <div className="flex flex-col py-6 bg-component animate-pulse rounded-lg w-full h-full pl-3 md:pl-6 pr-3 md:pr-16 shadow-sm lg:h-[18.5rem]" />
+      <div className="flex flex-col py-6 bg-component mt-6 animate-pulse rounded-lg w-full h-full pl-3 md:pl-6 pr-3 md:pr-16 shadow-sm lg:h-[18.5rem]" />
     );
   return (
     <section className="w-full px-2 lg:px-6 py-6 bg-component mt-6 rounded-[8px] shadow-sm">
