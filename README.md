@@ -23,6 +23,14 @@ This is a responsive frontend application built using **Next.js** and **Context 
     npm run dev
 Open http://localhost:3000 in your browser to view the app.
 
+## Screenshots
+
+![PC - Landing - Dark Theme Screenshot](./images/s5.png)
+![Phone - Landing - Light Theme Screenshot](./images/s2.png)
+![PC - Saving - Dark Theme Screenshot](./images/s4.png)
+![Phone - All Selected - Light Theme Screenshot](./images/s1.png)
+![PC - accordion - Dark Theme Screenshot](./images/s3.png)
+
 ## 📌 Assumptions
 The data persists over time once fetched.
 
