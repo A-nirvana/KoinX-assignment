@@ -24,9 +24,6 @@ export default function Harvest() {
     const initTotal = initStcg + initLtcg;
     const total = netStcg + netLtcg;
     const save = initTotal - total;
-    useEffect(() => {
-        console.log(save);
-    }, [save])
 
     return (
         <div className="flex text-white flex-col py-6 bg-gradient-to-br from-[#3C9AFF] to-[#0066FE] rounded-lg w-full lg:w-[48%] px-3 md:pl-6 md:pr-16 shadow-sm lg:h-[18.5rem]">

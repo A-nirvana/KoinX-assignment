@@ -77,7 +77,6 @@ function financeReducer(state: FinanceState, action: Action): FinanceState {
         },
         { stcg: { profits: 0, losses: 0 }, ltcg: { profits: 0, losses: 0 } }
       );
-      console.log(capitalGains)
       return { holdings, allSelected, capitalGains, initialGains: state.initialGains };
     }
     case "TOGGLE_ALL": {
