@@ -24,7 +24,7 @@ This is a responsive frontend application built using **Next.js** and **Context 
 Open http://localhost:3000 in your browser to view the app.
 
 ## 📌 Assumptions
-The data persists over time once fetched.
+The data persists over time once fetched
 
 Since this is a frontend-only implementation using a mock backend, there is no real-time re-listening to data updates from the server.
 
