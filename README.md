@@ -1,6 +1,6 @@
 # KoinX-assignment
 
-This is a responsive frontend application built using **Next.js** and **Context API** to manage global state. It showcases a list of crypto holdings with sorting, selection toggling, and capital gains calculations.
+This is a responsive frontend application built using **Next.js** and **Context API** to manage global state. It showcases a list of crypto holdings with **Sorting on different basis**, selection toggling, and capital gains calculations.
 
 
 ## 🔧 Setup Instructions
