@@ -52,7 +52,10 @@ export default function AllHoldings() {
   }, [state.holdings, viewAll]);
 
   if (error) return <p>Error loading holdings data</p>;
-  if (isLoading || !holdings) return <p>Loading...</p>;
+  if (isLoading || !holdings)
+    return (
+      <div className="flex flex-col py-6 bg-component animate-pulse rounded-lg w-full h-full pl-3 md:pl-6 pr-3 md:pr-16 shadow-sm lg:h-[18.5rem]" />
+    );
   return (
     <section className="w-full px-2 lg:px-6 py-6 bg-component mt-6 rounded-[8px] shadow-sm">
       <p className="text-lg lg:text-xl font-semibold pl-2 lg:pl-0">Holdings</p>
@@ -96,7 +99,9 @@ export default function AllHoldings() {
                   {asc ? "▲" : "▼"}
                 </span>
               )}
-              <span className="font-semibold text-sm big:text-base">Holdings</span>
+              <span className="font-semibold text-sm big:text-base">
+                Holdings
+              </span>
             </div>
             <span className="text-xs font-semibold text-muted-foreground hidden lg:block">
               Current Market Rate
@@ -116,7 +121,9 @@ export default function AllHoldings() {
                 {asc ? "▲" : "▼"}
               </span>
             )}
-            <span className="font-semibold text-sm big:text-base">Total Current Value</span>
+            <span className="font-semibold text-sm big:text-base">
+              Total Current Value
+            </span>
           </button>
 
           <button
@@ -132,7 +139,9 @@ export default function AllHoldings() {
                 {asc ? "▲" : "▼"}
               </span>
             )}
-            <span className="font-semibold text-sm big:text-base">Short-Term</span>
+            <span className="font-semibold text-sm big:text-base">
+              Short-Term
+            </span>
           </button>
 
           <button
@@ -148,10 +157,12 @@ export default function AllHoldings() {
                 {asc ? "▲" : "▼"}
               </span>
             )}
-            <span className="font-semibold text-sm big:text-base">Long-Term</span>
+            <span className="font-semibold text-sm big:text-base">
+              Long-Term
+            </span>
           </button>
           <div className="h-full hidden lg:flex items-center justify-end">
-            <p className= "text-sm big:text-base font-semibold">Amout to Sell</p>
+            <p className="text-sm big:text-base font-semibold">Amout to Sell</p>
           </div>
         </div>
       </div>
