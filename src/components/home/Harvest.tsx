@@ -1,7 +1,6 @@
 "use client"
 
 import { useFinance } from '@/context/FinanceContext';
-import { useEffect } from 'react';
 
 export default function Harvest() {
     const { state } = useFinance();

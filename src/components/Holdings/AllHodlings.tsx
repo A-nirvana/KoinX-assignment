@@ -155,7 +155,7 @@ export default function AllHoldings() {
           </div>
         </div>
       </div>
-      {holdings.map((holding: any, index: number) => (
+      {holdings.map((holding: HoldingType, index: number) => (
         <Holding key={index} holding={holding} />
       ))}
       <div className="flex justify-start mt-4">
